@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Design Self Study</title>
+
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<link href="fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
+
+	
+
+	<style>
+		body{
+			background-color: #eff4f9;
+		}
+
+		.one{	
+			width: 300px;
+			padding-left: 150px;
+		}
+
+		.two{
+			
+			width: 640px;
+		
+			
+		}
+
+		
+
+		.three{	
+			width: 350px;
+			padding-left: 100px;
+		}
+
+		.listOne{	
+			padding-left: 160px;
+			padding-top: 15px;
+		}
+
+		.listTwo{
+			width: 150px;
+			padding: 7px;
+			border-radius: 10px;
+		
+		}
+
+		.card{
+			margin-top: 15px;
+			margin-right: 20px;
+			border-radius: 7px;
+		}
+
+		.cardOne{
+			margin-top: 35px;
+		}
+
+		.imgOne{
+			float: left;
+			width: 40px;
+			height: 40px;
+			margin-right: 5px;
+			margin-bottom: 50px;
+		}
+
+		#btnOne, #btnTwo{
+			float: right;
+		}
+
+		.noti{
+			float: right;	
+		}
+
+		.mainNoti{
+			padding-bottom: 20px;
+		}
+
+		.navOne{
+			
+			color: black;
+			
+		}
+
+		.pngOne{
+			width: 20px;
+			height: 20px;
+		}
+
+		.Ques{
+			padding-top: 15px;
+		}
+
+		.dot{
+			float: right;
+			color: gray;
+		}
+		
+	</style>
+
+</head>
+<body>
+
+	<div class="row no-gutters">
+
+		<div class="col-12">
+
+			<nav class="navbar navbar-light" style="background-color: #bad6ec;">
+				<!-- Navbar content -->
+				
+				<div class="one float-right">
+					<!-- <a class="navbar-brand" >Answers</a> -->
+					<h4 class="navbar-title" style="color: white;">Answers</h4>
+				</div>
+
+
+				
+				<form class="form-inline">
+					
+					<div class="two">
+						<!-- <i class="fas fa-search"></i> -->					
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						
+					</div>
+
+					<div class="three">
+						<button class="btn btn-danger my-2 my-sm-0" type="submit">
+							<i class="fas fa-comment-medical"></i> Ask
+						</button>
+						<button class="btn btn-primary my-2 my-sm-0" type="submit">
+							<i class="fas fa-user"></i> Login
+						</button>
+					</div>
+
+
+				</form>
+			
+			</nav>
+
+		</div>
+
+		<div class="col-3">
+			
+			<div class="list-group listOne">
+				<a href="#" class="list-group-item-action listTwo">
+					<i class="fas fa-home"></i> Home
+				</a>
+				<a href="#" class="list-group-item-action listTwo">
+					<i class="fas fa-flask"></i> Science
+				</a>
+				<a href="#" class="list-group-item-action listTwo">
+					<i class="fas fa-pencil-alt"></i> Math
+				</a>
+				<a href="#" class="list-group-item-action listTwo">
+					<i class="fas fa-globe-americas"></i> History
+				</a>
+				<a href="#" class="list-group-item-action listTwo">
+					<i class="fas fa-book-open"></i> Literature
+				</a>
+				<a href="#" class="list-group-item-action listTwo">
+					<i class="fas fa-desktop"></i> Technology
+				</a>
+				<a href="#" class="list-group-item-action listTwo">
+					<i class="fas fa-dumbbell"></i> Health
+				</a>
+				<a href="#" class="list-group-item-action listTwo">
+					<i class="fas fa-gavel"></i> Law
+				</a>
+				<a href="#" class="list-group-item-action listTwo">
+					<i class="fas fa-briefcase"></i> Business
+				</a>
+				<a href="#" class="list-group-item-action listTwo">
+					<i class="fas fa-check-square"></i> All Topics
+				</a>
+				<a href="#" class="list-group-item-action listTwo">
+					<i class="fas fa-cube"></i> Random
+				</a>
+
+			</div>
+
+
+		</div>
+
+
+
+		<div class="col-4">
+			<div class="card shadow bg-white">
+				<div class="card-body">
+					<ul class="nav">
+						<li class="col nav-item"><a href="#" class="navOne">Hot</a></li>
+						<li class="col nav-item"><a href="#" class="navOne text-muted">Best</a></li>
+						<li class="col nav-item"><a href="#" class="navOne text-muted">Trending</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class="card shadow bg-white">
+				<div class="card-body">
+					<a href="#" class="btn btn-light" style="background-color: #e3f2fd; color: blue;">Celebrity Fan Contact Information</a>
+					<a href="#" class="btn btn-light" style="background-color: #e3f2fd; color: blue;">+1</a>
+					<a href="#" class="btn dot"><i class="fas fa-ellipsis-h"></i></a>
+
+					<h4 class="card-title Ques">How do you contact Quentin Tarantino the movie director by email?</h4>
+
+					
+					<div class="mainNoti"><img src="user.png" class="pngOne"> Asked by<a href="#"> Wiki User</a>
+						<div class="noti"><img src="user.png" class="pngOne"> 2 answers</div>
+					</div>
+
+					<p class="card-text"><a href="#">Quentin Tarantino's Agent:</a>Mike Simpson</p>
+					<p class="card-text">William Morris Agency</p>
+					<p class="card-text">One William Morris Place</p>
+					<p class="card-text">Beverly Hills, CA 90212</p>
+					<p class="card-text">Phone: 310-859-4000</p>
+
+
+					<a href="#" class="btn" style="background-color: #e3f2fd;">
+						<i class="fas fa-arrow-up"></i> 14 <i class="fas fa-arrow-down"></i>
+					</a>
+					<a href="#" class="btn btn-danger" id="btnOne" style=" color: white;">
+						<i class="fas fa-pen"></i> Answer
+					</a>
+
+				</div>
+			</div>
+
+			<div class="card shadow bg-white">
+				<div class="card-body">
+					<a href="#" class="btn btn-light" style="background-color: #e3f2fd; color: blue;">Business Accounting and Bookkeeping</a>
+					<a href="#" class="btn btn-light" style="background-color: #e3f2fd; color: blue;">+2</a>
+					<!-- <a href="#" class="btn dot"><i class="fas fa-ellipsis-h"></i></a> -->
+
+					<h4 class="card-title Ques">What is total annual business turnover How is it calculated?</h4>
+
+					<div>
+						
+					</div>
+
+					<div class="mainNoti"><img src="user.png" class="pngOne"> Asked by<a href="#"> Wiki User</a>
+						<div class="noti"><img src="user.png" class="pngOne"> 2 answers</div>
+					</div>
+
+					<p class="card-text">In general, an entity's annual turnover means the value of all supplies that are made within a twelve-month period. · For GST purposes, an entit</p>
+
+
+
+					<a href="#" class="btn" style="background-color: #e3f2fd;">
+						<i class="fas fa-arrow-up"></i> 48 <i class="fas fa-arrow-down"></i>
+					</a>
+					<a href="#" class="btn btn-danger" id="btnTwo" style=" color: white;">
+						<i class="fas fa-pen"></i> Answer
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="col-3">
+			<div class="card shadow bg-white cardOne">
+				<div class="card-body">
+					<h4 class="card-title">Trending Questions</h4>
+					<hr>
+
+					
+					<img class="imgOne" src="computer.png">
+					<h6 class="card-title">What is ROBLOX's password on roblox?</h6>
+					<span class="text-muted">Asked by</span><a href="#"> Wiki User</a>
+					<hr>
+
+					<img class="imgOne" src="cube.png">
+					<h6 class="card-title">Does Jerry Seinfeld have Parkinson's disease?</h6>
+					<span class="text-muted">Asked by</span><a href="#"> Wiki User</a>
+					<hr>
+
+					<img class="imgOne" src="pencil.png">
+					<h6 class="card-title">If you are 13 years old when were you born?</h6>
+					<span class="text-muted">Asked by</span><a href="#"> Wiki User</a>
+					<hr>
+
+					<img class="imgOne" src="cube.png">
+					<h6 class="card-title">What is a hink pink 50 percent giggle?</h6>
+					<span class="text-muted">Asked by</span><a href="#"> Wiki User</a>
+					
+				</div>
+
+			</div>
+
+			<div class="card shadow bg-white">
+				<div class="card-body">
+					<h4 class="card-title">Unanswered Questions</h4>
+					<hr>
+
+					<img class="imgOne" src="cube.png">
+					<h6 class="card-title">Ano ang kasingkahulugan ng marubdob?</h6>
+					<span class="text-muted">Asked by</span><a href="#"> Wiki User</a>
+					<hr>
+
+					<img class="imgOne" src="cube.png">
+					<h6 class="card-title">What is the rising action of faith love and dr lazaro?</h6>
+					<span class="text-muted">Asked by</span><a href="#"> Wiki User</a>
+					<hr>
+
+					<img class="imgOne" src="cube.png">
+					<h6 class="card-title">Pagkakaiba ng pagsulat ng ulat at sulating pananaliksik?</h6>
+					<span class="text-muted">Asked by</span><a href="#"> Wiki User</a>
+					<hr>
+
+					<img class="imgOne" src="cube.png">
+					<h6 class="card-title">Ano ang Imahinasyong guhit na naghahati sa daigdig sa magkaibang araw?</h6>
+					<span class="text-muted">Asked by</span><a href="#"> Wiki User</a>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	</html>
